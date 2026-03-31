@@ -1,4 +1,58 @@
 /* Тут пиши основные стили */
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+.article {
+    width: 700px;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+p {
+    width: 700px;
+    font-size: 21px;
+    line-height: 33px;
+}
+
+.article h1, .article h2 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    color:rgba(0,0,0,0.84);
+    margin-bottom: 10px;
+}
+
+.article h1 {
+    font-size: 42px;
+    line-height: 44px;
+}
+
+.article h2 {
+    font-size: 34px;
+    line-height: 39px;
+    margin-top: 50px;
+}
+
+.article img {
+    display: block;
+    width: 100%;
+}
+
+.first_photo {
+    margin: 42px 0 37px;
+}
+
+.second_photo {
+    margin: 43px 0 37px;
+}
+
+.article code {
+    font-family: "Courier New", monospace;
+}
 
 
 @media (max-width: 800px) {
